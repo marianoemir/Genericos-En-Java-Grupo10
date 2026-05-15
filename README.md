@@ -35,19 +35,12 @@ Este proyecto contiene ejercicios y ejemplos prácticos sobre el uso de genéric
 
 
 ```text
-
 ejercicios-genericos-java/
-
 └── src/
-
-&#x20;   ├── Main.java
-
-&#x20;   ├── pila/
-
-&#x20;   ├── par/
-
-&#x20;   └── calculadora/
-
+    ├── Main.java
+    ├── pila/
+    ├── par/
+    └── calculadora/
 ```
 
 
