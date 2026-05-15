@@ -36,6 +36,7 @@ Este proyecto contiene ejercicios y ejemplos prácticos sobre el uso de genéric
 
 ```text
 ejercicios-genericos-java/
+└──README.md
 └── src/
     ├── Main.java
     ├── pila/
