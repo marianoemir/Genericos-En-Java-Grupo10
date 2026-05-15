@@ -1,4 +1,4 @@
-\# Práctica Genéricos
+# Práctica Genéricos
 
 
 
@@ -6,23 +6,23 @@ Trabajo práctico realizado para la materia de programación en la Universidad T
 
 
 
-\## UTN FRM - Facultad Regional Mendoza
+## UTN FRM - Facultad Regional Mendoza
 
 
 
-\## Integrantes del grupo
+## Integrantes del grupo
 
 
 
-\- Andres Fabre
+- Andres Fabre
 
-\- Mariano Chirino
+- Mariano Chirino
 
-\- Facundo Quiroga
+- Facundo Quiroga
 
 
 
-\## Descripción
+## Descripción
 
 
 
@@ -30,7 +30,7 @@ Este proyecto contiene ejercicios y ejemplos prácticos sobre el uso de genéric
 
 
 
-\## Estructura del proyecto
+## Estructura del proyecto
 
 
 
