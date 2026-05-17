@@ -1,6 +1,10 @@
 package src;
+import java.util.Arrays;
+import java.util.List;
+
 
 import src.par.Par;
+import src.calculadora.Calculadora;
 
 public class Main {
 
@@ -14,6 +18,19 @@ public class Main {
         // Ahora el resultado es un Par de String (B) e Integer (A) 
         Par<String, Integer> pInvertido = p.invertir();
         System.out.println("Invertido: " + pInvertido);
-        //probando
+        //Probamos calculadora
+        //Creamos las listas de numeros
+        List<Integer> lista_enteros = Arrays.asList(2, 8, 5, 10);
+
+        List<Double> lista_decimales = Arrays.asList(2.5, 7.8, 1.2);
+        //Imprimimos las listas
+        System.out.println("Lisa de enteros: "+lista_enteros);
+        System.out.println("Lista de decimales: "+lista_decimales);
+        //Utilizamos los metodos
+        System.out.println("Promedio lisa de enteros: "+Calculadora.promedio(lista_enteros));
+        System.out.println("Macimo lista de enteros: "+Calculadora.maximo(lista_enteros));
+
+        System.out.println("Promedio lista de decimales: "+Calculadora.promedio(lista_decimales));
+        System.out.println("Macimo lista de decimales: "+Calculadora.maximo(lista_decimales));
     }
 }
