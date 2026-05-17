@@ -30,7 +30,8 @@ public class Calculadora {
         if (lista.isEmpty()) {
             return 0;
         }
-
+        
+        //devolvemos el primer elemento de la lista
         double max = lista.get(0).doubleValue();
 
         for (T num : lista) {
