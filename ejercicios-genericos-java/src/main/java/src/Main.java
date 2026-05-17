@@ -28,9 +28,9 @@ public class Main {
         System.out.println("Lista de decimales: "+lista_decimales);
         //Utilizamos los metodos
         System.out.println("Promedio lisa de enteros: "+Calculadora.promedio(lista_enteros));
-        System.out.println("Macimo lista de enteros: "+Calculadora.maximo(lista_enteros));
+        System.out.println("Maximo lista de enteros: "+Calculadora.maximo(lista_enteros));
 
         System.out.println("Promedio lista de decimales: "+Calculadora.promedio(lista_decimales));
-        System.out.println("Macimo lista de decimales: "+Calculadora.maximo(lista_decimales));
+        System.out.println("Maximo lista de decimales: "+Calculadora.maximo(lista_decimales));
     }
 }
