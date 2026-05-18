@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
-package pila;
+package src.pila;
 /**
  *
  * @author FACUNDO
@@ -18,25 +14,25 @@ public class Pila <T>{
         this.contenido = new ArrayList<>();
     }
 
-    public void Apilar(T elemento){
+    public void apilar(T elemento){
         
         contenido.add(elemento);
     }
     
-    public T Desapilar(){
-        int tamaño=contenido.size();
-        return contenido.remove(tamaño-1);
+    public T desapilar(){
+        int tamanio=contenido.size();
+        return contenido.remove(tamanio-1);
     }
     
-    public T Cima(){
+    public T cima(){
         return contenido.getLast();
     }
     
-    public boolean EstaVacia(){
+    public boolean estaVacia(){
         return contenido.isEmpty();
     }
     
-    public int Tamaño(){
+    public int tamanio(){
         return contenido.size();
         
     }
