@@ -3,18 +3,41 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package pila;
-
 /**
  *
  * @author FACUNDO
  */
-public class Pila {
+import java.util.ArrayList;
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public class Pila <T>{
+    
+    private ArrayList <T> contenido;
+
+    
+    public Pila() {
+        this.contenido = new ArrayList<>();
+    }
+
+    public void Apilar(T elemento){
+        
+        contenido.add(elemento);
     }
     
+    public T Desapilar(){
+        int tamaño=contenido.size();
+        return contenido.remove(tamaño-1);
+    }
+    
+    public T Cima(){
+        return contenido.getLast();
+    }
+    
+    public boolean EstaVacia(){
+        return contenido.isEmpty();
+    }
+    
+    public int Tamaño(){
+        return contenido.size();
+        
+    }
 }
